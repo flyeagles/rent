@@ -1,4 +1,4 @@
-FROM  gitpod/workspace-full-vnc
+FROM  gitpod/workspace-firefox
 
 RUN sudo apt-get update && \
     sudo apt-get install tigervnc-common && \
